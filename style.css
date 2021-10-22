@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Coda&display=swap');
+
+/*  asap sans-serif
+    coda cursive
+*/
+
+*{
+    font-family:'Asap', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #C09ECC;
+    color: #FFF;
+}
+
+h1{
+    font-family: 'Coda', cursive;
+    color: #f5e2ff;
+}
+
+.calc-body{
+    position:absolute
+}
