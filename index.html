@@ -14,9 +14,9 @@
         <p class="res-box" id="result"></p>
         <table>
             <tr>
-                <td><button class="calc-button" onclick="" id="clearBtn">C</button></td>
+                <td><button class="calc-button" onclick="deleteAll()" id="clearBtn">C</button></td>
                 <td><button class="calc-button" onclick="append('/')" id="divideBtn">/</button></td>
-                <td><button class="calc-button" onclick="append('^')" id="powerBtn">x²</button></td>
+                <td><button class="calc-button" onclick="append('**')" id="powerBtn">x²</button></td>
                 <td><button class="calc-button" onclick="append('*')" id="multiplyBtn">×</button></td>
             </tr>
             <tr>
@@ -35,7 +35,7 @@
                 <td><button class="calc-button" onclick="append('1')">1</button></td>
                 <td><button class="calc-button" onclick="append('2')">2</button></td>
                 <td><button class="calc-button" onclick="append('3')">3</button></td>
-                <td rowspan="2"><button class="calc-button" style="height: 185px;"  onclick="" id="equalBtn">=</button></td>
+                <td rowspan="2"><button class="calc-button" style="height: 185px;"  onclick="finalResult()" id="equalBtn">=</button></td>
             </tr>
             <tr>
                 <td colspan="2"><button class="calc-button" style="width: 182px;"  onclick="append('0')">0</button></td>
